@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #a29f9f;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #9a9595;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 12px;
+}
+
+header p {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section Styling */
+.hero {
+    background: url('fashion-banner.jpg') no-repeat center center/cover;
+    height: 70vh;
+    color: rgb(58, 38, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.btn {
+    background-color: #ffe602eb;
+    color: rgb(15, 15, 15);
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+/* Featured Products Section */
+.featured-products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: rgb(203, 223, 17);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 30%;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.product p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
