@@ -1,0 +1,46 @@
+/* General Styling for the Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Styling for the Navigation Menu */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the Shop Section */
+.shop {
+    padding: 20px;
+    text-align: center;
+}
+
+.shop h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* Grid layout for the products */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+}
+
