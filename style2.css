@@ -1,47 +1,124 @@
-/* Styling for the Contact Section */
-.contact {
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1e3a8a; /* Navy blue */
     padding: 20px;
     text-align: center;
 }
 
-.contact h2 {
+.navbar .logo {
+    font-size: 24px;
+    color: #fff; /* White text */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    margin-top: 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Page Styling */
+.contact-page {
+    padding: 50px 0;
+    background-color: #fff; /* White background */
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f4f4f4; /* Light gray form background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-container h2 {
     font-size: 32px;
     margin-bottom: 20px;
+    color: #1e3a8a; /* Navy blue */
+}
+
+.contact-container p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666; /* Medium gray */
 }
 
 /* Form Styling */
 form {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
 }
 
 label {
-    display: block;
-    font-size: 18px;
+    font-size: 16px;
+    color: #333;
     margin-bottom: 5px;
+    display: block;
 }
 
 input, textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
 }
 
-/* Styling for the submit button */
+textarea {
+    resize: none;
+}
+
+/* Button Styling */
 button {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
+    padding: 15px;
+    background-color: #ff6b6b; /* Soft red button */
+    color: #fff;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
-    font-size: 18px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #ff4d4d; /* Darker red on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1e3a8a; /* Navy blue */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
 }
