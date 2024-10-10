@@ -1,44 +1,146 @@
-<!DOCTYPE html>
+<CTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop - Bawal Fashion</title>
-    <link rel="stylesheet" href="style3.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
 
-<!-- Navigation Menu -->
-<nav>
-    <a href="index.html">Home</a> <!-- Link to Home Page -->
-    <a href="shope.html">Shop</a> <!-- Link to Shop Page -->
-    <a href="contact.html">Contact</a> <!-- Link to Contact Page -->
-</nav>
+<!-- Header Section with Navigation -->
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Bawal Fashion</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+</header>
 
 <!-- Shop Section -->
 <section class="shop">
-    <h2>Our Products</h2>
-    <div class="products" id="products-container">
-        <!-- Products will be displayed here dynamically from Firebase -->
-        <!-- Example Product Structure for reference -->
-        <section class="featured-products">
-            <h2>Featured Products</h2>
-            <div class="products">
-                <div class="product">
-                    <img src="pigment.jpeg" alt="Elegant mens pigment baggy">
-                    <h3>Elegant mens pigment baggy</h3>
-                    <p>$49.99</p>
-                </div>
-                <div class="product">
-                    <img src="baggi1.jpeg" alt="Stylish Casual Outfit">
-                    <h3>Stylish Casual Outfit</h3>
-                    <p>$39.99</p>
-                </div>
-                <div class="product">
-                    <img src="baggi2.jpeg" alt="Classic vintage baggy">
-                    <h3>Classic vintage baggy</h3>
-                    <p>$59.99</p>
-                </div>
+    <h1>Our Collection</h1>
+
+    <!-- T-Shirts Section -->
+    <div class="product-section">
+        <h2>T-Shirts</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="bcktshirt.jpeg" alt="T-Shirt 1">
+                <h3>Classic T-Shirt</h3>
+                <p>Price: $19.99</p>
             </div>
-        </section>
+            <div class="product-card">
+                <img src="1bcktshirt.jpeg" alt="T-Shirt 2">
+                <h3>Printed T-Shirt</h3>
+                <p>Price: $24.99</p>
+            </div>
+            <div class="product-card">
+                <img src="2bcktshirt.jpeg" alt="T-Shirt 2">
+                <h3>Printed T-Shirt</h3>
+                <p>Price: $24.99</p>
+            <!-- More products can be added here -->
+        </div>
+    </div>
+
+    <!-- Shirts Section -->
+    <div class="product-section">
+        <h2>Shirts</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="1shirt.jpeg" alt="Shirt 1">
+                <h3>Formal Shirt</h3>
+                <p>Price: $29.99</p>
+            </div>
+            <div class="product-card">
+                <img src="2shirt.jpeg" alt="Shirt 2">
+                <h3>Casual Shirt</h3>
+                <p>Price: $24.99</p>
+            </div>
+            <div class="product-card">
+                <img src="3shirt.jpeg" alt="Shirt 1">
+                <h3>Formal Shirt</h3>
+                <p>Price: $29.99</p>
+            <!-- More products can be added here -->
+        </div>
+    </div>
+
+    <!-- Jeans Section -->
+    <div class="product-section">
+        <h2>Jeans</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="baggi1.jpeg" alt="Jeans 1">
+                <h3>baggy Fit Jeans</h3>
+                <p>Price: $39.99</p>
+            </div>
+            <div class="product-card">
+                <img src="baggi2.jpeg" alt="Jeans 2">
+                <h3>baggy Fit Jeans</h3>
+                <p>Price: $44.99</p>
+            </div>
+            <div class="product-card">
+                <img src="pigment.jpeg" alt="Jeans 2">
+                <h3>pigment baggy Fit Jeans</h3>
+                <p>Price: $44.99</p>
+            <!-- More products can be added here -->
+        </div>
+    </div>
+
+    <!-- Trousers Section -->
+    <div class="product-section">
+        <h2>Trousers</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="1trousor.jpeg" alt="Trousers 1">
+                <h3>Formal Trousers</h3>
+                <p>Price: $34.99</p>
+            </div>
+            <div class="product-card">
+                <img src="2trousor.jpeg" alt="Trousers 2">
+                <h3>Casual Trousers</h3>
+                <p>Price: $29.99</p>
+            </div>
+            <div class="product-card">
+                <img src="3trousor.jpeg" alt="Trousers 2">
+                <h3>Casual Trousers</h3>
+                <p>Price: $29.99</p>
+            <!-- More products can be added here -->
+        </div>
+    </div>
+
+    <!-- Undergarments Section -->
+    <div class="product-section">
+        <h2>Undergarments</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="1underwear.jpg" alt="Undergarment 1">
+                <h3>Basic Undergarment</h3>
+                <p>Price: $9.99</p>
+            </div>
+            <div class="product-card">
+                <img src="2underwear.jpg" alt="Undergarment 2">
+                <h3>Comfort Fit Undergarment</h3>
+                <p>Price: $14.99</p>
+            </div>
+            div class="product-card">
+                <img src="2underwaer.jpeg" alt="Undergarment 2">
+                <h3>Comfort Fit Undergarment</h3>
+                <p>Price: $14.99</p>
+            <!-- More products can be added here -->
+        </div>
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Bawal Fashion. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>!DO
     
