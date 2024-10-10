@@ -1,46 +1,141 @@
-/* General Styling for the Body */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    box-sizing: border-box;
 }
 
-/* Styling for the Navigation Menu */
-nav {
-    background-color: #333;
-    padding: 10px;
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1e3a8a; /* Navy blue */
+    padding: 20px;
     text-align: center;
 }
 
-nav a {
-    color: white;
+.navbar .logo {
+    font-size: 24px;
+    color: #fff; /* White text */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    margin-top: 10px;
+}
+
+.nav-links a {
+    color: #fff;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
 }
 
-nav a:hover {
+.nav-links a:hover {
     text-decoration: underline;
 }
 
-/* Styling for the Shop Section */
+/* Shop Section Styling */
 .shop {
-    padding: 20px;
+    padding: 50px 0;
+    background-color: #fff;
     text-align: center;
 }
 
-.shop h2 {
-    font-size: 32px;
+.shop h1 {
+    font-size: 36px;
+    color: #1e3a8a; /* Navy blue */
+    margin-bottom: 40px;
+}
+
+/* Product Section Styling */
+.product-section {
+    margin-bottom: 50px;
+}
+
+.product-section h2 {
+    font-size: 28px;
+    color: #1e3a8a; /* Navy blue */
     margin-bottom: 30px;
 }
 
-/* Grid layout for the products */
-.products {
+/* Product Grid Styling */
+.product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
     gap: 20px;
     padding: 20px;
 }
 
+/* Product Card Styling */
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1e3a8a; /* Navy blue */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px;
+    }
+
+    .navbar .logo {
+        font-size: 20px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .shop h1 {
+        font-size: 28px;
+    }
+
+    .product-section h2 {
+        font-size: 24px;
+    }
+
+    .product-card h3 {
+        font-size: 20px;
+    }
+
+    .product-card p {
+        font-size: 16px;
+    }
+}
