@@ -101,7 +101,7 @@ textarea {
 /* Button Styling */
 button {
     padding: 15px;
-    background-color: #ff6b6b; /* Soft red button */
+    background-color: #ca0d0d; /* Soft red button */
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -111,14 +111,14 @@ button {
 }
 
 button:hover {
-    background-color: #ff4d4d; /* Darker red on hover */
+    background-color: #ac0909; /* Darker red on hover */
 }
 
 /* Footer Styling */
 footer {
-    background-color: #1e3a8a; /* Navy blue */
+    background-color: #7f8a1e; /* Navy blue */
     padding: 20px;
     text-align: center;
-    color: white;
+    color: rgb(14, 13, 13);
     margin-top: 50px;
 }
