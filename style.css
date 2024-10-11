@@ -93,6 +93,7 @@ header nav ul li a {
 
 .products {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -102,6 +103,7 @@ header nav ul li a {
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(82, 44, 2);
     width: 30%;
+    margin-bottom: 20px;
 }
 
 .product img {
@@ -153,4 +155,86 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Large Screens */
+@media (min-width: 992px) {
+    .hero h2 {
+        font-size: 70px;
+    }
+
+    .btn {
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+
+    .products {
+        flex-wrap: nowrap;
+    }
+
+    .product {
+        width: 23%;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    header h1 {
+        font-size: 60px;
+    }
+
+    .hero h2 {
+        font-size: 45px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+    }
+
+    .product {
+        width: 45%;
+    }
+}
+
+/* Mobile Screens */
+@media (max-width: 767px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 80%;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .featured-products h2,
+    .about-us h2,
+    .contact h2 {
+        font-size: 28px;
+    }
 }
